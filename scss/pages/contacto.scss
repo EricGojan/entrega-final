@@ -1,0 +1,86 @@
+.contacto {
+    background-image: radial-gradient(rgba(133, 133, 133, 0.5), rgba(133, 133, 133, 0.5)),url(../images/kart2.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+    
+    h4 {
+        font-size: 30px;
+    }
+    form {
+        max-width: 80%;
+        margin: 0 auto;
+        label {
+            display: block;
+            flex: 1;
+            
+        }
+        textarea, input {
+            background: rgb(121,121,121);
+            background: radial-gradient(circle, rgba(121,121,121,1) 0%, rgba(37,35,35,1) 52%, rgba(1,1,1,1) 100%); 
+            border-radius: 10px;
+            border: 1px solid;
+            border-color: #ffffff;
+            padding: 10px 5px;
+            outline: 0;
+            color: white;
+            width: 100%;
+        }
+    }
+    .contacto-form {
+        display: flex;
+        div {
+            padding: 15px;
+            flex: 1;
+        }
+    }
+    .mensaje {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .botonEnviar {
+        background: rgb(121,121,121);
+        background: radial-gradient(circle, rgba(121,121,121,1) 0%, rgba(37,35,35,1) 52%, rgba(1,1,1,1) 100%); 
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        padding: 10px 30px;
+        border: 1px solid white;
+        border-radius: 30px;
+        margin-top: 15px;
+        transition: all 0.4s;
+        &:hover {
+            color: white;
+            transform: scale(1.05);
+        }
+    }
+}
+.contacto2 {
+    display: none;
+}
+@media only screen and (min-width:767px) {
+.contacto2 {
+    background: rgb(121,121,121);
+    background: radial-gradient(circle, rgba(121,121,121,1) 0%, rgba(37,35,35,1) 52%, rgba(1,1,1,1) 100%); 
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    div {
+        margin-top: 30px;
+    p {
+        color: white;
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    iframe {
+        border-radius: 10px;
+        width: auto;
+    }
+   }
+ }
+}

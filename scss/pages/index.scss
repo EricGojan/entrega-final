@@ -1,0 +1,29 @@
+.contenido {
+    transition: .3s linear;
+    &:hover {
+        transform: scale(1.02);
+    }
+    img {
+        width: 100%;
+        margin-top: 10px
+    }
+}
+
+.contenido2 {
+    @extend .contenido;
+}
+
+.redes {
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    transition: .3s linear;
+        img {
+            padding: 10px;
+            width:60px;
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+}

@@ -1,0 +1,58 @@
+.productos {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 250px;
+        border-radius: 100%;
+        margin: 10px;
+        transition: .3s linear;
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 2px 2px 2px black;
+        }
+    }
+    p {
+        text-align: center;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    button {
+        margin-bottom: 10px;
+        background-color: rgb(31, 31, 28);
+        color: white;
+        border-radius: 5px;
+        width: 90px;
+        height: 50px;
+        font-size: 20px;
+        transition: all 0.4s;
+        &:hover {
+            transform: scale(1.02);
+            box-shadow: 3px 3px 3px black;
+        }
+    }
+}
+.fondo1 {
+    background-image:radial-gradient(rgba(133, 133, 133, 0.5), rgba(133, 133, 133, 0.5)), url(../images/kart2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ .fondo2 {
+         background-image:radial-gradient(rgba(133, 133, 133, 0.5), rgba(133, 133, 133, 0.5)), url(../images/tc.jpg);
+         background-position: center;
+        background-size: cover;
+     }
+     .fondo3 {
+         background-image:radial-gradient(rgba(133, 133, 133, 0.5), rgba(133, 133, 133, 0.5)), url(../images/toprace.jpg);
+         background-position: center;
+         background-size: cover;
+     }
+     .fondo4 {
+        background-image:radial-gradient(rgba(133, 133, 133, 0.5), rgba(133, 133, 133, 0.5)), url(../images/f1.jpg);
+        background-position: center;
+        background-size: cover;
+     }
